@@ -47,15 +47,15 @@ fig.savefig('teste.png')
 a large amount of sales and also a high sales value per square meter. Defining then,
 some zipcodes as being the most favorable for investment.
 
-![bar_plots](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/bar_plot.PNG)
+![bar_plots](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/bar_plot.PNG)
 
-![ZipCodes](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a-top_zipcodes.PNG)
+![ZipCodes](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a-top_zipcodes.PNG)
    
 
 * Within these 'most favorable regions' the data are explored in order to better understand
 the type of real estate marketed in them.
 
-![Quartos](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/Graphs.PNG)
+![Quartos](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/Graphs.PNG)
 
 * In addition, looking at the chart below, you can get an idea of the values of properties traded in this region.
 ```python
@@ -77,7 +77,7 @@ plt.plot(range(553),df_mean['Values'],color='Black',label='Valor Médio = 0.576'
 plt.legend()
 plt.show()
 ```
-![Histograma](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/pre%C3%A7o%20de%20venda.PNG)
+![Histograma](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/pre%C3%A7o%20de%20venda.PNG)
 
 # Feature Engineering
 * It is important to point out that the worked features will all belong to properties traded in the previously "most favorable region", and consequently  model will generate sales value forecasts only for these areas. 
@@ -97,14 +97,14 @@ corr.iplot(kind='heatmap',colorscale='Blues',hoverinfo='all',
 bad_ft =['condition','yr_built','yr_renovated','zipcode','long','lat','waterfront']
 ndf = df.drop(bad_ft,axis=1)
 ``` 
-![DF](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a-%20df1.PNG)
+![DF](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a-%20df1.PNG)
 
 * However, analyzing once again the matrix of correlations between the features, I noticed the presence of strong dependencies between the features themselves. Thus, to avoid multicollinearity problems that would compromise the stability and quality of the final results, the features chosen to describe the targets were as follows:
 ```python
 n2df = ndf.drop(['bedrooms','bathrooms','sqft_living15','sqft_above','sqft_lot15','view','floors'],axis=1)
 n2df.head(3)
 ```
-![df_2](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a%20-%20df2.PNG)
+![df_2](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a%20-%20df2.PNG)
 
 
 * Next, I analyzed the presence of outliers in the data taken to avoid possible learning problems in the model to be generated.It is important to know that outliers do not always represent incorrect data, it is possible that they also represent totally possible variations of the analyzed variable. Therefore, it is necessary to create a treshhold 
@@ -129,7 +129,7 @@ sns.boxplot(y='price',data=n2df)
 plt.title('Price Box Plot ')
 plt.show()
 ```
-![box_plot](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a-box_plot1.PNG)
+![box_plot](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a-box_plot1.PNG)
 
 
 * So, after creating a treshhold for each analyzed variable, I filtered the  outliers. 
@@ -189,7 +189,7 @@ sns.distplot(new_df['price'],color = 'blue')
 plt.title('Price Distribution')
 plt.show()
 ```
-![dist_plots](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/1-dist.PNG)
+![dist_plots](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/1-dist.PNG)
 
 
 * Based on this analysis, I chose to normalize the data and transform their distributions as close to Gaussian as possible.This process is important because normalized data facilitates the learning of the model and at the same time avoids a bias in the predictions due to the difference between the orders of magnitude of the training values
@@ -203,7 +203,7 @@ n_living = (stats.rankdata(living)/(len(living)+1)-0.5)*2
 n_living = (np.arctanh(n_living) + np.max(np.arctanh(n_living)) + 0.01)
 new_df['sqft_living'] = n_living
 ```
-![new_plot](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a-n_dist.PNG)
+![new_plot](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a-n_dist.PNG)
 
 * NOTE: The 'price' data used as target values for the training of the model did not undergo the normalization process, so the new distribution of these values shown above was only for the purpose of visualizing the method. 
 
@@ -232,7 +232,7 @@ mea =  round((mean_absolute_error(y_test,predicts)/100000),5)
 r2 =    round((r2_score(y_test,predicts)),5)
 me_log = round((mean_squared_log_error(y_test,predicts)),5)
 ``` 
-![métrics](https://github.com/gui-miranda/Previsao-do-Valor-de-Venda-de-Imoveis/blob/main/Graphs/a-metrics.PNG)
+![métrics](https://github.com/gui-miranda/Data-Science-Projects/blob/main/Real-Estate-Sale-Value-Forecasting-main/Graphs/a-metrics.PNG)
 
 * Analyzing the Mean Abosolute Error metric we can see that its value is in the order of 10^4 dollars, and as the predicted values are in the order of 10^6 dollars, we can interpret it as a strong indicator of low forecast errors.
 
