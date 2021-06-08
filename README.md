@@ -23,9 +23,9 @@ Here you can see some of my projects:
 
 * **Books Sales Recommendation Algorithm:** https://github.com/gui-miranda/Books-Sales-Recommendation-Algorithm/blob/main/README.md
 
-* **Insurance Sales Forecast:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Insurance-Sales-Forecast-main
-
 * **Real Estate Sale Value Forecasting:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
+
+* **Insurance Sales Forecast:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Insurance-Sales-Forecast-main
 
 ---
 
