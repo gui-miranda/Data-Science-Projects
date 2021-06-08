@@ -21,7 +21,7 @@ I am also experienced in the construction of models using Linear and Logistical 
 ## Projects:
 Here you can see some of my projects:
 
-* **Books Sales Recommendation Algorithm:** https://github.com/gui-miranda/Books-Sales-Recommendation-Algorithm/blob/main/README.md
+* **Books Sales Recommendation Algorithm:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Books-Sales-Recommendation-Algorithm-main
 
 * **Real Estate Sale Value Forecasting:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
 
