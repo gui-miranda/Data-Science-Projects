@@ -1,4 +1,4 @@
-# Books Promotions Recommendation Algorithm
+# Books Sales Recommendation Algorithm
 
 # Obective 
 * Create a machine learning solution that will help users or small companies to filter the best books promotions according to theirs personal interests on 
