@@ -19,11 +19,11 @@ Sou estudante de graduação em Engenharia Física e tenho sólida experiência 
 ## Projetos:
 Aqui você pode ver alguns dos meus projetos:
 
-* **Books Sales Recommendation Algorithm:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Books-Sales-Recommendation-Algorithm-main
+* **Recomendador de Oportunidade de Compra:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Books-Sales-Recommendation-Algorithm-main
 
-* **Real Estate Sale Value Forecasting:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
+* **Previsor do Valor de Venda de Imóveis:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
 
-* **Insurance Sales Forecast:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Insurance-Sales-Forecast-main
+* **Previsor de Vendas de Seguros:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Insurance-Sales-Forecast-main
 
 ---
 
