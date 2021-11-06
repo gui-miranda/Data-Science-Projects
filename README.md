@@ -5,11 +5,9 @@
 </p>
 
 # Guilherme Cardoso Miranda
-<sub>*Frelancer Data Scientist* at Upwork</sub>
+<sub>*Cientista de Dados Frelancer* </sub>
 
-I am a undergraduate student in Engineer Physics and I have a solid experience with Statics , Analitical Descriptions and Scientific Computation. My major hability is help to understand and solve bussines problems using machine learning models, in especially recomendation systems, perfoming them from the web scraping to the implementation of the model.
-
-I am also experienced in the construction of models using Linear and Logistical Regressions and optmize then using their metrics to make the models as close to reality as possible.
+Sou estudante de graduação em Engenharia Física e tenho sólida experiência com Estática, Descrições Analíticas e Computação Científica. Minha principal habilidade é ajudar a entender e resolver problemas de negócios utilizando modelos de aprendizado de máquina, especialmente em séries temporais e sistemas de recomendação, realizando-os desde o web scraping até a implementação do modelo.
 
 **Background in:** Python, Machine Learning, Statistics and Physics.
 
@@ -18,8 +16,8 @@ I am also experienced in the construction of models using Linear and Logistical 
 * [UpWork](https://www.upwork.com/freelancers/~0135d9a49e2010354e)
 
 
-## Projects:
-Here you can see some of my projects:
+## Projetos:
+Aqui você pode ver alguns dos meus projetos:
 
 * **Books Sales Recommendation Algorithm:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Books-Sales-Recommendation-Algorithm-main
 
