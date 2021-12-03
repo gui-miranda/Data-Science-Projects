@@ -67,7 +67,8 @@ Em linhas gerais, pode-se concluir que a realização das previsões utilizando 
 ## DATA CLEANING
 Após o processo de filtragem dos dados para o estado de São Paulo, o conjunto de dados possuia as seguintes features e dimensões:
 
-![DF](https://github.com/gui-miranda/Projecao-do-Preco-de-Combustiveis/blob/main/Imagens/dataset.JPG)
+![image](https://user-images.githubusercontent.com/82520450/144603141-24422a98-a749-49fd-9ee0-0de5de3b5712.png)
+
 
 **[201,6]**
 
@@ -81,7 +82,7 @@ Após o processo de filtragem dos dados para o estado de São Paulo, o conjunto 
    
 Deve-se destacar que , por se tratarem de dados fornecidos pelo governo federal, esses se encontravam bem estruturados e na ausência de valores nulos. Pode-se visualizar esse fato atráves de um heatmap:
 
-![null_value](https://github.com/gui-miranda/Projecao-do-Preco-de-Combustiveis/blob/main/Imagens/null_values.JPG)
+![image](https://user-images.githubusercontent.com/82520450/144603193-b9cb34e9-3fa5-4c99-b378-800cf44a7cca.png)
 
 ****
 ## EXPLORATORY DATA ANALYSIS
