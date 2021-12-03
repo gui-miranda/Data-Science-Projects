@@ -19,6 +19,8 @@ Sou estudante de graduação em Engenharia Física e tenho sólida experiência 
 ## Projetos:
 Aqui você pode ver alguns dos meus projetos:
 
+* **Previsão/Análise dos Preços de Combustíveis:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Fuel-Price-Analysis-and-Forecasting
+
 * **Recomendador de Oportunidade de Compra:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Books-Sales-Recommendation-Algorithm-main
 
 * **Previsor do Valor de Venda de Imóveis:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
