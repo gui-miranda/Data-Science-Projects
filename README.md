@@ -25,7 +25,5 @@ Aqui você pode ver alguns dos meus projetos:
 
 * **Previsor do Valor de Venda de Imóveis:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Real-Estate-Sale-Value-Forecasting-main
 
-* **Previsor de Vendas de Seguros:** https://github.com/gui-miranda/Data-Science-Projects/tree/main/Insurance-Sales-Forecast-main
-
 ---
 
